@@ -15,7 +15,7 @@ import android.widget.Toast;
 public class MyListAdapter extends BaseAdapter {
 
     static int[] picture =new int[] {R.drawable.b1, R.drawable.b2, R.drawable.b3, R.drawable.b4, R.drawable.b5, R.drawable.b6, R.drawable.b7,R.drawable.b1, R.drawable.b2, R.drawable.b3, R.drawable.b4, R.drawable.b5, R.drawable.b6, R.drawable.b7};
-    String[] txt = new String[]{"禽兽","饮料","思考","吃面","你特么逗我","莱雪条","抱胸","禽兽2","饮料2","思考2","吃面2","你特么逗我2","莱雪条2","抱胸2"};
+    String[] txt = new String[]{"红酒","果汁饮料","鸡尾酒","橙汁","香槟","咖啡饮料","啤酒","红酒","果汁饮料","鸡尾酒","橙汁","香槟","咖啡饮料","啤酒"};
     LayoutInflater layoutInflater;
     Context context;
 

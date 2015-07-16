@@ -16,7 +16,7 @@ import android.widget.Toast;
 public class MyViewPage extends ViewPager {
 
     static int[] picture =new int[] {R.drawable.b1, R.drawable.b2, R.drawable.b3, R.drawable.b4, R.drawable.b5, R.drawable.b6, R.drawable.b7};
-    String[] txt = new String[]{"抱胸","禽兽","饮料","思考","吃面","你特么逗我","莱雪条","抱胸","禽兽"};
+    String[] txt = new String[]{"啤酒","红酒","果汁饮料","鸡尾酒","橙汁","香槟","咖啡饮料","啤酒","红酒"};
     ImageView[] imageList = new ImageView[picture.length + 2];
     private static  final int ListStart = 1;
     private static  final int ListEnd = picture.length ;
